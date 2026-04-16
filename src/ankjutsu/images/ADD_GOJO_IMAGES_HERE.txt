@@ -1,0 +1,7 @@
+Add Satoru Gojo images here!
+
+Supported formats: .jpg, .jpeg, .png, .bmp, .gif, .webp
+
+You can also add custom images to a "user_files" directory next to this
+"images" directory, and set "disable_default_images" to true in the config
+to only use your custom images.

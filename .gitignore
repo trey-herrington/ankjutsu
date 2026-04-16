@@ -1,0 +1,4 @@
+*.ankiaddon
+ankiweb_description.txt
+__pycache__/
+*.pyc

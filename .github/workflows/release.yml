@@ -1,0 +1,28 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build .ankiaddon package
+        run: |
+          cd src/ankjutsu
+          zip -r ../../ankjutsu.ankiaddon . \
+            -x "./__pycache__/*" \
+            -x "./images/ADD_GOJO_IMAGES_HERE.txt"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ankjutsu.ankiaddon
+          generate_release_notes: true

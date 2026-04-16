@@ -1,0 +1,44 @@
+{
+    "duration": 3000,
+    "image_height": 128,
+    "encourage_every": 10,
+    "max_spread": 5,
+    "limit_max": 100,
+    "limit_high": 50,
+    "limit_middle": 25,
+    "count_adding": false,
+    "count_reviewing": true,
+    "reset_counter_on_new_day": false,
+    "disable_default_images": false,
+    "encouragements": {
+        "low": [
+            "Nah, I'd study.",
+            "You're doing great, even without the Six Eyes.",
+            "Keep going, sorcerer.",
+            "Nice work! Gojo-sensei approves."
+        ],
+        "middle": [
+            "Throughout Heaven and Earth, you alone are studying.",
+            "You're on a streak! Don't let Sukuna catch up.",
+            "Cursed energy is flowing through your flashcards.",
+            "You're stronger than you were yesterday."
+        ],
+        "high": [
+            "Domain Expansion: Infinite Knowledge!",
+            "You've activated your Limitless potential.",
+            "Hollow Purple level focus right now.",
+            "Even the King of Curses would be impressed."
+        ],
+        "max": [
+            "Are you the strongest because you study, or do you study because you're the strongest?",
+            "You've surpassed your limits. This is the real Jujutsu.",
+            "Throughout Heaven and Earth, you alone are the honored one.",
+            "Immeasurable Void couldn't stop your study session."
+        ]
+    },
+    "tooltip_color": "#C5CFFF",
+    "tooltip_align_vertical": "bottom",
+    "tooltip_align_horizontal": "left",
+    "tooltip_space_vertical": 100,
+    "tooltip_space_horizontal": 0
+}
